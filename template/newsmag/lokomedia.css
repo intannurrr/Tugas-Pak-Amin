@@ -1,0 +1,62 @@
+.td-pb-row [class*="td-pb-span"],
+.td-pb-border-top,
+.page-template-page-title-sidebar-php .td-page-content > .wpb_row:first-child,
+.td-post-sharing,
+.td-post-content,
+.td-post-next-prev,
+.author-box-wrap,
+.td-comments-title-wrap,
+.comment-list,
+.comment-respond,
+.td-post-template-5 header,
+.td-container,
+.wpb_content_element,
+.wpb_column,
+.wpb_row,
+.white-menu .td-header-container .td-header-main-menu,
+.td-post-template-1 .td-post-content,
+.td-post-template-4 .td-post-sharing-top,
+.td-header-style-6 .td-header-header .td-make-full,
+#disqus_thread,
+.page-template-page-pagebuilder-title-php .td-page-content > .wpb_row:first-child,
+.td-footer-container:before {
+    border-color: #e6e6e6;
+}
+.td-top-border {
+    border-color: #e6e6e6 !important;
+}
+.td-container-border:after,
+.td-next-prev-separator,
+.td-container .td-pb-row .wpb_column:before,
+.td-container-border:before,
+.td-main-content:before,
+.td-main-sidebar:before,
+.td-pb-row .td-pb-span4:nth-of-type(3):after,
+.td-pb-row .td-pb-span4:nth-last-of-type(3):after {
+	background-color: #e6e6e6;
+}
+@media (max-width: 767px) {
+	.white-menu .td-header-main-menu {
+  		border-color: #e6e6e6;
+  	}
+}
+
+.td-menu-background:before,
+.td-search-background:before {
+    background: rgba(0,0,0,0.5);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.5)), color-stop(100%, rgba(0,0,0,0.6)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.5) 0%, @mobileu_gradient_two_mob 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,0,0,0.5)', endColorstr='rgba(0,0,0,0.6)', GradientType=0 );
+}
+
+.td-footer-container::before {
+    background-size: cover;
+}
+
+.td-footer-container::before {
+    opacity: 0.1;
+}
